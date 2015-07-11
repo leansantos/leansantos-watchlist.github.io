@@ -1,4 +1,5 @@
 app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', function($scope, $http, $routeParams, $sce){
+
 	$http.get(moviesdata)
 		.success(function(response){
 			$scope.movies = response.movies;
@@ -12,6 +13,10 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 				return $sce.trustAsResourceUrl($scope.movies[id].poster);
 			};
 
+			$scope.moviesplayer = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player?link="+$scope.moviesLink($scope.getparamId)+"&poster="+$scope.moviesPoster($scope.getparamId));
+			};
+
 		
 		});
 	$http.get(seriesdata)
@@ -23,8 +28,12 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 				return $sce.trustAsResourceUrl($scope.tvseries[id].link);
 			};
                         
-                        $scope.seriesPoster = function(id){
+            $scope.seriesPoster = function(id){
 				return $sce.trustAsResourceUrl($scope.tvseries[id].poster);
+			};
+
+			$scope.seriesplayer = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player?link="+$scope.seriesLink($scope.getparamId)+"&poster="+$scope.seriesPoster($scope.getparamId));
 			};
 		});
 
@@ -44,11 +53,14 @@ app.directive('movieplayer', function(){
 	};
 });
 
-app.directive('seriesplayer', function(){
+
+
+
+app.directive('videoplayer', function(){
 
 	return{
 		restrict: 'A',
-		template: "<video controls autoplay ><source src='{{seriesLink(getparamId)}}' type='video/mp4'></video>"
+		template: "<iframe ng-src='{{'http://watchlist.co.nf/html5-video-player/?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}' allowfullscreen></iframe>"
 	}
 
 });
