@@ -1,0 +1,383 @@
+body{
+	background-color: #ffffff
+}
+li{
+	list-style: none;
+}
+
+/*Header RigthSide Fixed navbar================ 
+
+index.html*/
+.side-navbar{
+	
+	text-align: right;
+	padding-top:15px;
+	width: 180px;
+	height: 100%;
+}
+.baseline-border{
+	padding:14px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.side-navbar-fixed{
+	position: fixed;
+	left: 30px;
+}
+.navigation{
+	padding-top:15px;
+}
+.navigation ul li{
+	padding-top:10px;
+}
+.navigation a{
+	color: #494949;
+	font-size: 0.875em;
+	font-weight: bold;
+}
+
+/*partials content*/
+.partials{
+	padding-left:250px;
+}
+/*END -- partials content======*/
+
+@media screen and (max-width: 768px){
+	.side-navbar-fixed{position: static; width:100%;text-align: center}
+	.navigation ul{width: 250px;margin:0 auto !important;}
+	.navigation ul{margin:0;padding:0;overflow: hidden;}
+	.navigation li{float: left; padding-left: 25px}
+	.navigation a{display: block;}
+	.partials{padding-left:0;}
+}
+
+/*END 
+
+Header RigthSide Fixed navbar================     */
+
+
+
+
+/* Partial Homepage ========================== 
+
+home.html*/
+
+.home-page img{
+	width: 150px;
+	height: 190px;
+}
+.home-page .video-item:hover{
+	box-shadow: 0 12px 10px #777;
+	border:1px solid #D5D5D5;
+	border-radius:5px 5px 0 0;
+	animation:pulse 2s;
+}
+.video-item{
+	max-width:152px;
+	margin-right: 8px;
+	border:1px solid #FFFFFF;
+	margin-bottom:15px;
+}
+.video-item a {
+	color:#F00;
+}
+.home-page .title{
+	text-align: center;
+ 	overflow: hidden;
+ 	text-overflow: ellipsis;
+ 	font-size:16px;
+ 	height: 44px;
+ 	max-height: 44px;
+}
+.home-page .year{
+	text-align: center;
+	font-size:11px;
+}
+
+/*movie-section ===================*/
+.movie-section{
+	overflow: hidden;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+.movie-section .movie-list .movie-item{
+	float: left;
+}
+
+/*END movie-section ===================*/
+
+/*series-section ==================*/
+.series-section{
+	overflow: hidden;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+.series-section .series-list .series-item{
+	float: left;
+}
+.series-section .episode-title{
+	text-align: center;
+	overflow: hidden;
+	font-size:12px;
+	height: 35px;
+}
+.series-section .episode-title p{
+	font-size:15px;
+}
+/*END series-section ===================*/
+
+/*anime-section ==================*/
+.anime-section{
+	overflow: hidden;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+.anime-section .anime-list .anime-item{
+	float: left;
+}
+/*END anime-section ====================*/
+@media screen and (max-width: 768px){
+	.home-page {text-align: center;}
+	
+}
+@media screen and (max-width: 990px){
+	.home-page img{width: 120px;height: 160px;}
+	.video-item{max-width:122px;}
+	.home-page .title{height:40px;max-height: 40px;font-size:14px;}
+}
+
+/*END 
+
+Partial Homepage =================================*/
+
+/* Partial Movie list page ================
+
+movie.html */
+.movies-page .poster{
+	float:left;
+}
+.movies-page .poster img{
+	width: 150px;
+	height: 190px;
+}
+.movies-page .movie-item{
+	 overflow:hidden;
+	 border:1px solid #FFFFFF;
+	 max-height:190px;
+	 margin-bottom: 10px;
+}
+.movies-page .title{
+	overflow:hidden;
+	padding-left:5px;
+	font-size: 16px;
+}
+.movies-page .title a{
+	color:#F00;
+}
+.movies-page .genre{
+	overflow: hidden;
+	padding-left:5px;
+}
+.movies-page .summary{
+	height:162px;
+	max-height:162px;
+	overflow:scroll;
+	padding-top:10px;
+	padding-left:5px;
+	text-indent:25px;
+}
+.movies-page .movie-item:hover{
+	border:1px solid #D5D5D5;
+	box-shadow: 0 8px 10px #777;
+	background:#ffffff;
+	animation:pulse 2s;
+}
+
+@media screen and (max-width: 990px){
+	.movies-page .poster img{width: 120px;height: 160px;}
+	.movies-page .movie-item{max-height:160px;}
+	.movies-page .summary{height:132px;max-height:132px;font-size:12px;}
+}
+
+/*END 
+
+Partial Movie list page ========================== */
+
+/*Partials Watch Movies page
+
+watch-movie.html*/
+.watch-movies-page .title{
+	border-bottom: 1px dotted #333;
+	margin-bottom:10px;
+	padding-top:20px;
+}
+
+/*END
+
+Partisl Watch Movies page ========================*/
+
+
+/*Partial Tv Series list page =====================
+
+series.html */
+.series-page .poster{
+	float:left;
+}
+.series-page .poster img{
+	width: 150px;
+	height: 190px;
+}
+.series-page .series-item{
+	 overflow:hidden;
+	 border:1px solid #FFFFFF;
+	 max-height:190px;
+	 margin-bottom: 10px;
+}
+.series-page .title{
+	overflow:hidden;
+	padding-left:5px;
+	font-size: 16px;
+}
+.series-page .series-item a{
+	color:#F00;
+}
+.series-page .episode-title{
+	overflow:hidden;
+	padding-left:5px;
+}
+.series-page .summary{
+	height:162px;
+	max-height:162px;
+	overflow:scroll;
+	padding-top:10px;
+	padding-left:5px;
+	text-indent:25px;
+}
+.series-page .series-item:hover{
+	border:1px solid #D5D5D5;
+	box-shadow: 0 8px 10px #777;
+	background:#ffffff;
+	animation:pulse 2s;
+}
+
+@media screen and (max-width: 990px){
+	.series-page .poster img{width: 120px;height: 160px;}
+	.series-page .series-item{max-height:160px;}
+	.series-page .summary{height:132px;max-height:132px;font-size:12px;}
+}
+
+/*Partials Watch Series page
+
+watch-series.html*/
+.watch-series-page .title{
+	border-bottom: 1px dotted #333;
+	margin-bottom:10px;
+	padding-top:20px;
+}
+
+/*END
+
+Partials Watch Series page ========================*/
+
+
+/*END
+
+Partial Tv Series list page ======================*/
+
+
+/*Animation*/
+/*.movies-page .movie-item.ng-enter{
+	animation: zoomInUp 1.5s;
+}
+.movies-page .movie-item.ng-leave{
+	animation: zoomOutDown 1.5s;
+}
+
+.series-page .series-item.ng-enter{
+	animation: zoomInUp 1.5s;
+}
+.series-page .series-item.ng-leave{
+	animation: zoomOutDown 1.5s;
+}
+
+.home-page .movie-item.ng-enter{
+	animation: fadeInUp 1s;
+}
+.home-page .movie-item.ng-leave{
+	animation: fadeOutRight 1s;	
+}
+.home-page .series-item.ng-enter{
+	animation: fadeInUp 3s; 
+}
+.home-page .series-item.ng-leave{
+	animation: fadeOutRight 1s;
+}
+.home-page .anime-item.ng-enter{
+	animation: fadeInUp 5s;
+}
+.home-page .anime-item.ng-leave{
+	animation: fadeOutRight 1s;
+}
+
+*/
+
+.home-page .video-item.ng-enter{
+	transition: 0.75s;
+	opacity: 0;
+}
+.home-page .video-item.ng-enter-stagger{
+	transition-delay:0.3s;
+}
+.home-page .video-item.ng-enter-active{
+	opacity: 1;
+}
+.home-page .video-item.ng-leave-stagger{
+	transition-delay:0.3s;
+}
+.home-page .video-item.ng-leave{
+	transition:0.75s;
+}
+.home-page .video-item.ng-leave-active{
+	opacity: 0;
+}
+/**/
+.movies-page .movie-item.ng-enter{
+	transition: 0.75s;
+	opacity: 0;
+}
+/*.movies-page .movie-item.ng-enter-stagger{
+	transition-delay:0.3s;
+}*/
+.movies-page .movie-item.ng-enter-active{
+	opacity: 1;
+}
+/*.movies-page .movie-item.ng-leave-stagger{
+	transition-delay:0.3s;
+}*/
+.movies-page .movie-item.ng-leave{
+	transition:0.75s;
+}
+.movies-page .movie-item.ng-leave-active{
+	opacity: 0;
+}
+/**/
+.series-page .series-item.ng-enter{
+	transition: 0.75s;
+	opacity: 0;
+}
+/*.series-page .series-item.ng-enter-stagger{
+	transition-delay:0.3s;
+}*/
+.series-page .series-item.ng-enter-active{
+	opacity: 1;
+}
+/*.series-page .series-item.ng-leave-stagger{
+	transition-delay:0.3s;
+}*/
+.series-page .series-item.ng-leave{
+	transition:0.75s;
+}
+.series-page .series-item.ng-leave-active{
+	opacity: 0;
+}
+

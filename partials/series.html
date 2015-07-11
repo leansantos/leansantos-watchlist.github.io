@@ -1,0 +1,53 @@
+<div class="series-page">
+	
+
+<div class="col-md-9">
+	<h2>Tv Series List</h2>
+	<div class="series-list">
+		<dir-pagination-controls
+		    [max-size="5"]
+		    [direction-links="true"]
+		    [boundary-links="true"]>
+	    </dir-pagination-controls>
+
+
+
+		<div class="series-item" dir-paginate="series in tvseries | filter:search | orderBy:'-id' | itemsPerPage: 10">
+			<div class="poster">
+				<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}"><img ng-src="{{ series.poster }}" alt=""></a>		
+			</div>
+			<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}">
+				<div class="title">
+					<b>{{ series.title }}</b>  <i>(S{{ series.season }} - E{{ series.episode }})</i>
+				</div>
+				<div class="episode-title">
+					<i><b>{{ series.episodeTitle }}</b></i>
+				</div>
+			</a>	
+			<div class="summary">
+				<p>{{ series.summary }}</p>
+			</div>
+		</div><!-- end div series-item class -->
+
+		<dir-pagination-controls
+		    [max-size="5"]
+		    [direction-links="true"]
+		    [boundary-links="true"]>
+	    </dir-pagination-controls>		
+	</div><!-- end div series-list class -->
+	
+	
+
+
+
+
+</div><!-- end div col-md-9 class -->
+
+
+
+<div class="col-md-3">
+	<h1>Side Navigation</h1>
+</div>
+
+</div>
+

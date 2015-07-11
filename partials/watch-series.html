@@ -1,0 +1,32 @@
+<div class="watch-series-page">
+
+<div class="col-md-9">
+<div class="title">
+<h3>{{tvseries[getparamId].title}} - {{tvseries[getparamId].episodeTitle}}(S{{tvseries[getparamId].season}}-E{{tvseries[getparamId].episode}})</h3>
+</div>
+
+<div>
+	
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;">
+  <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +seriesLink(getparamId) +'&poster=' +seriesPoster(getparamId)}}" allowfullscreen></iframe>
+</div>
+
+
+</div>
+
+ <!-- <div class="video-player" seriesplayer ></div> -->
+
+</div>
+
+<div class="col-md-3" ng-controller="NavigationController">
+	<h1>Side Navigation</h1>
+	<ul style="padding-left:0;">
+		<li ng-repeat="nav in navigation.sideNav">
+			<a href="{{nav.link}}" style="color:{{nav.color}};">{{nav.nav}}</a>
+		</li>
+	</ul>
+</div>
+
+</div>
+

@@ -1,0 +1,82 @@
+<div class="home-page">
+
+<div class="col-md-10">
+	
+
+<!-- MOVIES Section ========================================================= -->
+<div class="movie-section">
+	<h2>Movies</h2>
+	<div class="movie-list"  style="border-top:1px dotted grey;padding-top:15px;">
+
+		<div ng-repeat="movie in movies | filter:search | orderBy:'-id' | limitTo:10 " class="movie-item video-item">
+			<div class="title">
+				<b><a href="#/movies/{{movie.id}}/watch-{{ movie.title }}" title="{{ movie.title }} ({{ movie.released }})">{{ movie.title }}</a></b>
+			</div>
+			<div class="year"><i>({{ movie.released }})</i></div>
+			<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><img ng-src="{{ movie.poster }}" title="{{ movie.title }} ({{ movie.released }})"></a>
+		</div>
+		
+	</div><!-- end div movie-list class -->
+</div>
+<!-- END MOVIES Section ===================================================================== -->
+
+<!-- SERIES Section ========================================================================= -->
+<div class="series-section">
+	<h2>Tv Series</h2>
+	<div class="series-list"  style="border-top:1px dotted grey;padding-top:15px;">
+
+		<div ng-repeat="series in tvseries | filter:search | orderBy:'-id' | limitTo:10 " class="series-item video-item">
+			<div class="title">
+				<b><a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}" title="{{ series.title+' - '+series.episodeTitle}}(S{{series.season+'-E'+series.episode}})">{{ series.title }}</a></b>
+			</div>
+			<div class="episode-title"><i>(S{{ series.season }}-E{{ series.episode }})</i><p>{{ series.episodeTitle }}</p></div>
+			<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}" title="{{ series.title+' - '+series.episodeTitle}}(S{{series.season+'-E'+series.episode}})"><img ng-src="{{ series.poster }}" alt=""></a>
+		</div>
+	
+	</div><!-- end div series-list class-->
+</div>
+<!-- END SERIES Section =============================================================== -->
+<hr>
+
+
+
+
+
+<!-- ANIME Section ==================================================================== -->
+<!-- <div class="anime-section">
+	<h3>Anime</h3>
+	<div class="anime-list">
+
+		<div class="anime-item video-item">
+			<div class="title">
+				<b><a href="">Gotham</a></b>
+			</div>
+			<div class="year"><i>(2014)</i></div>
+			<a href=""><img src="images/gotham.jpg" alt=""></a>
+		</div>
+
+
+		
+	</div>
+</div> -->
+<!-- END ANIME Section ================================================================ -->
+
+
+
+
+
+
+</div><!-- end div col-md-10 class -->
+
+
+
+
+<div class="col-md-2">
+	<h4>Side </h4>
+</div>
+
+
+
+
+
+</div>

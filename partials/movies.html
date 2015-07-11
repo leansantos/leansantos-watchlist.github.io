@@ -1,0 +1,70 @@
+<div class="movies-page">
+
+
+<div class="col-md-9">
+	<h2>Movie List</h2>
+	<div class="movie-list">
+	
+		<dir-pagination-controls
+		    [max-size="5"]
+		    [direction-links="true"]
+		    [boundary-links="true"]>
+	    </dir-pagination-controls>
+		
+
+		<div class="movie-item" dir-paginate="movie in movies |  filter:search | orderBy:'-id' | itemsPerPage: 10 ">
+			<div class="poster">
+				<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><img ng-src="{{ movie.poster }}" alt=""></a>		
+			</div>
+			<div class="title">
+				<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><b>{{ movie.title }}</b> - <i>({{ movie.released }})</i></a>
+			</div>
+			<div class="genre">
+				<i>{{ movie.genres }}</i>
+			</div>
+			<div class="summary">
+				<p>{{ movie.summary }}</p>
+			</div>
+		</div><!-- end div movie-item class -->
+		
+		
+		<dir-pagination-controls
+		    [max-size="5"]
+		    [direction-links="true"]
+		    [boundary-links="true"]>
+	    </dir-pagination-controls>
+			
+	</div><!-- end div movie-list class -->
+	
+	
+
+
+
+
+</div><!-- end div col-md-9 class -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-md-3" ng-controller="NavigationController">
+	<h1>Side Navigation</h1>
+	<ul style="padding-left:0;">
+		<li ng-repeat="nav in navigation.sideNav">
+			<a href="{{nav.link}}" style="color:{{nav.color}};">{{nav.nav}}</a>
+		</li>
+	</ul>
+</div>
+
+</div>
+
