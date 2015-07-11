@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="movieApp">
+<head>
+	<meta charset="UTF-8">
+	<title>	Movies </title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0004_18.png" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mycss.css">
+</head>
+<body>
+
+	<div class="side-navbar side-navbar-fixed">
+		<div><a href="#/"><h2>Movies</h2></a></div>
+		<div class="baseline-border">
+			<input type="text" ng-model="search" placeholder="Search here" style="text-align:center;">
+		</div>
+		<div class="navigation">
+			<ul>
+				<li><a href="#/movies">MOVIES</a></li>
+				<li><a href="#/tv-series">TV SERIES</a></li>
+				<li><a href="#/anime">ANIME</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div>
+		<div ng-view></div>	
+	</div>
+	
+	
+
+
+<script src="js/angular.min.js"></script>
+
+<script src="js/app.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/controllers/MovieController.js"></script>
+<script src="js/controllers/SeriesController.js"></script>
+<script src="js/controllers/HomeController.js"></script>
+
+<script src="js/controllers/WatchController.js"></script>
+
+
+
+
+
+
+</body>
+</html>
