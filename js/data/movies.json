@@ -1,0 +1,137 @@
+{
+
+"movies": [
+	{
+		"id": 0, "title": "Kingsman: The Secret Service", "category": "Movie", "genres": "Action | Adventure | Comedy",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A spy organization recruits an unrefined, but promising street kid into the agencyÃƒÂ¢Ã‚Â€Ã‚Â™s ultra-competitive training program, just as a global threat emerges from a twisted tech genius.",
+		"poster": "https://lh3.googleusercontent.com/Me3N7J33CBNlTxFS4rEZOp1Bzwemn_PZHjn7PC__xBE=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/Bb81Ugysw7B5afAfmCK2o0SbMNN-ZJFJ4wZAm24D8qU=m18",
+		"source": "https://r3---sn-jvhja5g3-hoae.googlevideo.com/videoplayback?requiressl=yes&id=029b8e44266f1e39&itag=18&source=webdrive&ip=120.29.65.236&ipbits=0&expire=1437018248&sparams=expire,id,ip,ipbits,itag,mm,mn,ms,mv,pl,requiressl,source&signature=53603F345BE28181B3EC4C2F80CD3D24F16AAFCD.82080B30EA8EC4FB7809A461C52E9037AE6C3AEF&key=cms1&cms_redirect=yes&mm=31&mn=sn-jvhja5g3-hoae&ms=au&mt=1434828538&mv=m&pl=22"
+	},
+	{
+		"id": 1, "title": "Focus", "category": "Movie", "genres": "Comedy | Crime | Drama",
+		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Nicky Spurgeon is an extremely accomplished con man who takes an amateur con artist, Jess, under his wing. Nicky and Jess become romantically involved, and with NickyÃƒÂ¢Ã‚Â€Ã‚Â™s profession of being a liar and a cheater for a living, he realizes that deception and love are things that donÃƒÂ¢Ã‚Â€Ã‚Â™t go together. They split, only to see each other three years laterÃƒÂ¢Ã‚Â€Ã‚Â¦ And things get messy.",
+		"poster": "https://lh3.googleusercontent.com/6w9DzrFJvHofRx9w49j3NIbj9A5FEwb9mqagPXf54ZU=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/M2MLjAUVYnNhJ_lUO0rV7_WyOANc9c8X9CoPJlUuRh8=m18"
+	},
+	{
+		"id": 2, "title": "Night at the Museum: Secret of the Tomb", "category": "Movie", "genres": "Adventure | Comedy | Family",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Larry spans the globe, uniting favorite and new characters while embarking on an epic quest to save the magic before it is gone forever.",
+		"poster": "https://lh3.googleusercontent.com/-62QzeCNYNjIO2hMaZ9jbHduyYTAoeqnLvraKOt06IA=w280-h400-no",
+		"image": "",
+		"link": "http://fsd3.vodlocker.com:8777/osceatpxg64pcnokalucbmg3wpluyrbaur7gjtonophlorfl3g3pfycttq/v.mp4"
+	},
+	{
+		"id": 3, "title": "Interstellar", "category": "Movie", "genres": "Adventure | Sci-Fi",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A group of explorers make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+		"poster": "https://lh3.googleusercontent.com/humLH4aYt8-xa_5J89HE67mTWbdOvE2pBp3IAfFsUoU=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/8zswiuhEf63vFboB1PAqjuPz7Ir5gM7Ir-pOeG-pclI=m18"
+	},
+	{
+		"id": 4, "title": "The Interview", "category": "Movie", "genres": "Action | Comedy",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Dave Skylark and producer Aaron Rapoport run the celebrity tabloid show ÃƒÂ¢Ã‚Â€Ã‚ÂœSkylark Tonight.ÃƒÂ¢Ã‚Â€Ã‚Â When they land an interview with a surprise fan, North Korean dictator Kim Jong-un, they are recruited by the CIA to turn their trip to Pyongyang into an assassination mission.",
+		"poster": "https://lh3.googleusercontent.com/o83QFBeNEXQ2ItxUDouOCUqvzGM37Zjg2_kT4Ae7P0o=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/fJQBa3kkNN0lOxA3rA6plJB3EZ1PV1Ov2pKbDPnv5Jk=m18"
+	},
+	{
+		"id": 5, "title": "The Theory of Everything", "category": "Movie", "genres": "Biography | Drama | Romance",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
+		"poster": "https://lh3.googleusercontent.com/8-uXNALXKx53F9eIgXcNZ4cc591CJPDRnoW2hBqvXFw=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/aFFTNhEfezcLvRMxO9i0BPG040T-IT0nhFdFIEX2CDP-=m22"
+	},
+	{
+		"id": 6, "title": "The Maze Runner", "category": "Movie", "genres": "Action | Mystery | Sci-Fi",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Thomas is deposited in a community of boys after his memory is erased, soon learning theyÃƒÂ¢Ã‚Â€Ã‚Â™re all trapped in a maze that will require him to join forces with fellow ÃƒÂ¢Ã‚Â€Ã‚ÂœrunnersÃƒÂ¢Ã‚Â€Ã‚Â for a shot at escape.",
+		"poster": "https://lh3.googleusercontent.com/-zQIQh53iFcBpKtnXZQ2Q0rkJeQ8C2f_H1rkPxDmq-k=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/l3OFvt_KQ3_EWIv-oiMlu1iq8oLvqAAN1tdbLRY4MkUV=m18"
+	},
+	{
+		"id": 7, "title": "Dawn of the Planet of the Apes", "category": "Movie", "genres": "Action | Drama | Sci-Fi",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Ten years after a pandemic disease, apes who have survived it are drawn into battle with a group of human survivors.",
+		"poster": "https://lh3.googleusercontent.com/B1KSo9JDBDeVGPKG8WfHxZC9JY67hSm6WtXBCw5s0EY=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/cMaa23pV-HPDc0_jwc4L8H8O2GGanplGD8Rsjq8Smg-_=m18"
+	},
+	{
+		"id": 8, "title": "Teenage Mutant Ninja Turtles", "category": "Movie", "genres": "Action | Adventure | Comedy",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "When a kingpin threatens New York City, a news reporter find a quad of mutants which makes an alliance to unravel ShredderÃƒÂ¢Ã‚Â€Ã‚Â™s plan as the Teenage Mutant Ninja Turtles.",
+		"poster": "https://lh3.googleusercontent.com/SwqEe7SPDHh7Gl8a0sZIDQV0zCNZp9Erd8PV4sfS-tM=w280-h400-no",
+		"image": "",
+		"link": "http://50.7.100.74:8777/gkceabj5i24pcnokalhsdze5w2sen75xtkyk4mss7nwsnw7lgxs2q7fh24/v.mp4"
+	},
+	{
+		"id": 9, "title": "Project Almanac", "category": "Movie", "genres": "Sci-Fi | Thriller",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "A group of teens discover secret plans of a time machine, and construct one. However, things start to get out of control.",
+		"poster": "https://lh3.googleusercontent.com/ZcBDA6HZ3wm-EKLsqh-lZsDfkYCcBYxwNk2kcJGV5E0=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/4kklWj_o4sZoN2KmSKmUF3WbYz2WZVDDAAv77WxGRs8=m18"
+	},
+	{
+		"id": 10, "title": "Furious Seven", "category": "Movie", "genres": "Action | Crime | Thriller",
+		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+		"poster": "https://lh3.googleusercontent.com/coBYKYimHUOdeXf-w4mSt32OmpWrM46F8Gja-ng45DY=w280-h400-no",
+		"image": "",
+		"link": "https://lh3.googleusercontent.com/QUANNGYYoBb7t1uEUsNYuoNA3Bwv0tD5vS1gXIA7Vg=m18"
+	},
+	{
+		"id": 11, "title": "Mad Max:Fury Road", "category": "Movie", "genres": "Action | Adventure | Sci-Fi",
+		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "In a stark desert landscape where humanity is broken, two rebels just might be able to restore order: Max, a man of action and of few words, and Furiosa, a woman of action who is looking to make it back to her childhood homeland.",
+		"poster": "https://lh3.googleusercontent.com/elKD6kvCfIDTgtFxw6mAgOZ22ZcuMGh9ulG53tKXFgg=w280-h400-no",
+		"image": "",
+		"link": "https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=335bb2f87ec0e13b&itag=22&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1437612968&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=85591CF60B8C1F6B7CA2625580B655034A588C2D.20EC71A462EE164D70FB3E009F4A1518367C97A9&key=ck2"
+	},
+	{
+		"id": 12, "title": "John Wick", "category": "Movie", "genres": "Action | Thriller",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "An ex-hitman comes out of retirement to track down the gangsters that took everything from him.",
+		"poster": "https://lh3.googleusercontent.com/g1W33XPenHav8v5FwdeQMzuogYO8A7svUcS9ggv3RmQ=w280-h400-no",
+		"image": "",
+		"link": "http://fsd3.vodlocker.com:8777/osceapnphc4pcnokajbsb26p6ld3a3wrb7a32tzzbqhhh374vbgixagxbq/v.mp4"
+	},
+	{
+		"id": 13, "title": "Lupin III", "category": "Movie", "genres": "Action | Adventure | Comedy",
+		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"duration": "",
+		"summary": "Interpol Inspector Zenigata begins a world-wide hunt for the infamous thief Arsene Lupin III.",
+		"poster": "https://lh3.googleusercontent.com/xTiYXcO27IltRrWxuoKl5Onz9N86ICkHZOlaHrMlDcc=w280-h400-no",
+		"image": "",
+		"link": "http://198.7.59.78:8777/bwcegmj6gw4pcnokal3cbmg77bzhprmkirfmzxls2iammnjsat65sn3fha/v.mp4"
+	}
+
+
+
+
+
+]
+}
